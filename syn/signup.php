@@ -1,6 +1,6 @@
 <?php
 
-	require "db/db.php";
+	// require "db/db.php";
 
 	$name = $_POST['name'];
 	$email = $_POST['email'];
@@ -8,15 +8,15 @@
 
 	echo $name."<br>".$email."<br>".$pswd."<br>";
 
-	$sql = "INSERT INTO users (name, email, pswd)
-		VALUES ('$name', '$email', '$pswd')";
+// 	$sql = "INSERT INTO users (name, email, pswd)
+// 		VALUES ('$name', '$email', '$pswd')";
 
-		if (mysqli_query($conn, $sql)) {
-		  echo "New record created successfully";
-		} else {
-		  echo "Error: " . $sql . "<br>" . mysqli_error($conn)."<br>";
-		}
-mysqli_close($conn);
+// 		if (mysqli_query($conn, $sql)) {
+// 		  echo "New record created successfully";
+// 		} else {
+// 		  echo "Error: " . $sql . "<br>" . mysqli_error($conn)."<br>";
+// 		}
+// mysqli_close($conn);
 ?>
 
 <!-- hello -->
