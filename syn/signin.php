@@ -26,7 +26,7 @@
 			      <label for="pwd">Password:</label>
 			      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
 			    </div>
-			    <button type="submit" name="signin" class="btn btn-success">Sign In</button> Create new account? <a href="index.php" class="btn btn-primary">Sign In</a>
+			    <button type="submit" name="signin" class="btn btn-success">Sign In</button> Create new account? <a href="index.php" class="btn btn-primary">Sign Up</a>
 			  </form>
 		  </div>
 		  <div class="col-md-3"></div>
